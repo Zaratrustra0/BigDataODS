@@ -1,5 +1,5 @@
 # Hive 高频考点讲解
-因为申请较晚，本公众号没留言，想交流的欢迎添加私人微信，一起相互吹捧，共同进步。![](https://mmbiz.qpic.cn/mmbiz_png/wJvXicD0z2dW3UHib1D7WdNCq5MbP2Bj14l9srkxy2M0yq1dKnR43HunHLBiaKwWxlFRuJt7XGXPeqnibvP8s7156Q/640?wx_fmt=png)
+因为申请较晚，本公众号没留言，想交流的欢迎添加私人微信，一起相互吹捧，共同进步。
 
 Hive 是 FaceBook 开源的一款基于 Hadoop 数据仓库工具，它可以将结构化的数据文件映射为一张表，并提供类 SQL 查询功能。
 
