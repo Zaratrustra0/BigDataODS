@@ -1,4 +1,4 @@
-# (8条消息) ES系列之利用filter让你的查询效率飞起来_犀牛饲养员-CSDN博客_es filter
+#  ES系列之利用filter让你的查询效率飞起来_犀牛饲养员-CSDN博客_es filter
 ## bool 查询简介
 
 Elasticsearch(下面简称 ES) 中的 bool 查询在业务中使用也是比较多的。在一些非实时的分页查询，导出的场景，我们经常使用 bool 查询组合各种查询条件。

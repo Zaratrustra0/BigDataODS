@@ -1,4 +1,4 @@
-# (8条消息) 一文带你彻底搞懂Elasticsearch中的模糊查询_犀牛饲养员-CSDN博客_elasticsearch 模糊查询
+#  一文带你彻底搞懂Elasticsearch中的模糊查询_犀牛饲养员-CSDN博客_elasticsearch 模糊查询
 ### 写在前面
 
 Elasticsearch（以下简称 ES）中的模糊查询官方是建议慎用的，因为的它的性能不是特别好。不过这个性能不好是相对 ES 自身的其它查询（term，match）而言的，如果跟其它的搜索工具相比 ES 的模糊查询性能还是不错的。

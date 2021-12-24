@@ -1,4 +1,4 @@
-# (8条消息) Elasticsearch之利用bulk提高写入性能（含源码分析）_犀牛饲养员-CSDN博客
+# Elasticsearch之利用bulk提高写入性能（含源码分析）_犀牛饲养员-CSDN博客
 ## 什么是 bulk 操作
 
 bulk 是批量的意思，也就是把原来单个的操作打包好，通过批量的 api 提交到 ES 集群。下面是个示例：
