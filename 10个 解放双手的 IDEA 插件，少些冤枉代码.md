@@ -110,36 +110,4 @@
 
 整理了几百本各类技术电子书相送 ，嘘~，**「免费」** 送给小伙伴们。关注公众号回复【**666**】自行领取。和一些小伙伴们建了一个技术交流群，一起探讨技术、分享技术资料，旨在共同学习进步，如果感兴趣就扫码加入我们吧！
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/0OzaL5uW2aODmvJSFPPZo7vnNgX4KbzL4qepVM1ZgibU0ia1UpjEibAF5D7lHxYwSB8EHZicAxt3qPv2DgOJlXPOicw/640?wx_fmt=jpeg)
-
-往期精彩回顾
-
-[我司用了 6 年的 Redis 分布式限流器，可以说是非常厉害了！  
-](http://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247484077&idx=1&sn=c873e011a3c921737c1b0bf24ddc6c68&chksm=9b859250acf21b469355d0ebfe0b58a36407260bedb0f038cee2a50bec83e3dc839a21d85871&scene=21#wechat_redirect)
-
-[一口气说出 9 种 分布式 ID 生成方式，面试官有点懵了](http://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247483785&idx=1&sn=8b828a8ae1701b810fe3969be536cb14&chksm=9b859174acf21862f0b95e0502a1a441c496a5488f5466b2e147d7bb9de072bde37c4db25d7a&scene=21#wechat_redirect)  
-[你的简历写了 “熟悉” zookeeper ？那这些你会吗？  
-](http://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247484060&idx=1&sn=f548a43f2f18d89d7813d9f561c0218e&chksm=9b859261acf21b778b13377e33ad7fb65a1f340919221ff58e2c785dc436fb48f6e2dad53a50&scene=21#wechat_redirect)
-
-## [redis 分布式锁的 5 个坑，真是又大又深](http://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247484051&idx=1&sn=a4bda1d370a31e2f3f9139c416e9f6d5&chksm=9b85926eacf21b7827c57313ab3abfbf789fe2c96b99056bbb6847273ab46d0cc7059c5e7644&scene=21#wechat_redirect)
-
-[基于 Java 实现的人脸识别功能（附源码）](http://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247483925&idx=1&sn=c83bf51f3c67ce7ea65c3ac7b200a852&chksm=9b8592e8acf21bfe26ab0852aa1028f87fbde355ca3e43186a0be08f223bb25e8e00e91d6ee0&scene=21#wechat_redirect)
-
-\[一口气说出 6 种 @Transactional 注解失效场景  
-
-## ]([http://mp.weixin.qq.com/s?\_\_biz=MzAxNTM4NzAyNg==&mid=2247483977&idx=1&sn=7d8d3c89bfe2261f6422572dca405990&chksm=9b8592b4acf21ba2a8368bb0cf7fff4d3832ce87da33674372a852034186e2966f27fafde66f&scene=21#wechat_redirect](http://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247483977&idx=1&sn=7d8d3c89bfe2261f6422572dca405990&chksm=9b8592b4acf21ba2a8368bb0cf7fff4d3832ce87da33674372a852034186e2966f27fafde66f&scene=21#wechat_redirect))
-
-## [一口气说出 4 种 “附近的人” 实现方式，面试官笑了](http://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247484037&idx=1&sn=c2a013c2f8a39b6a46a5dbfaf00366ee&chksm=9b859278acf21b6e2c50e7963125130a66c98480e8aff46248b0f722517df9eacd2a10c9b80d&scene=21#wechat_redirect)
-
-![](https://mmbiz.qpic.cn/mmbiz_gif/0OzaL5uW2aPyekW24xJ8woJLqKEIJDppzAYy2vakIdsBnnh8BUPltLkmlexKRlBJDibLrq0TVL88Fq32mzYR4nw/640?wx_fmt=gif)
-
-![](https://mmbiz.qpic.cn/mmbiz_gif/0OzaL5uW2aPyekW24xJ8woJLqKEIJDppr8yy2Ms8Dmr7E56TcCTlEHH7W86aaMkxedaw7PqWcvGjcDJjUxmkvQ/640?wx_fmt=gif)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/0OzaL5uW2aP1ImVsS66n7jnB1RdzRhpwfAvm8WBT23DHG5nicbBumo5m7oBKc94HibxyCpleaeIQp68WtJ0vkWNA/640?wx_fmt=jpeg)
-
-![](https://mmbiz.qpic.cn/mmbiz_gif/0OzaL5uW2aPyekW24xJ8woJLqKEIJDppr8yy2Ms8Dmr7E56TcCTlEHH7W86aaMkxedaw7PqWcvGjcDJjUxmkvQ/640?wx_fmt=gif)
-
-关注，迈开成长的第一步
-
-![](https://mmbiz.qpic.cn/mmbiz_gif/6aVaON9Kibf7jNIAOgqwdCv2J77riaDsoMDSpLqoaUiao8aD9r3FwP0gFU2Psuqv6SgVAPhib8hibvO8CaEM8wu1Arw/640?wx_fmt=gif) 
  [https://mp.weixin.qq.com/s/aWQDlujb-j1ufdraA-bC6g](https://mp.weixin.qq.com/s/aWQDlujb-j1ufdraA-bC6g)
