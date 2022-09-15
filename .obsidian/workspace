@@ -1,0 +1,114 @@
+{
+  "main": {
+    "id": "4f487f77cb715f26",
+    "type": "split",
+    "children": [
+      {
+        "id": "f039b6f710fce884",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "机器学习.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "01808dc9c06af2a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c61c0a175e3aeb4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1da79f5383dc3d6d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "bdf19192e4797d4c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 262.5
+  },
+  "right": {
+    "id": "c6058e56682c2a34",
+    "type": "split",
+    "children": [
+      {
+        "id": "495c1afe2dc2776d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cbadce98df8ae906",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "机器学习.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4fe177ef0a601924",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "机器学习.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f039b6f710fce884",
+  "lastOpenFiles": [
+    "机器学习.md",
+    "机器学习/这可能是最简单易懂的机器学习入门（小白必读）.md",
+    "Chrome Clippings.md",
+    "数据治理/万字好文！数据治理体系与能力提升.md",
+    "数据治理/数据治理重点汇总.md",
+    "数据治理/数据治理方法论和实践小百科全书.md",
+    "数据治理/客户治理体系工作规划分享.md",
+    "数据治理/关于数仓建设及数据治理的超全概括.md",
+    "数据治理/数据治理解决方案参考.md",
+    "数据治理/所谓的数据质量.md"
+  ]
+}
