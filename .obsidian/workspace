@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "f039b6f710fce884",
+        "id": "1af3d5b3cd157e4a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "机器学习.md",
-            "mode": "source",
+            "file": "10个解放双手的 IDEA 插件，这些代码真不用手写.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "机器学习.md",
+                "file": "10个解放双手的 IDEA 插件，这些代码真不用手写.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "机器学习.md"
+                "file": "10个解放双手的 IDEA 插件，这些代码真不用手写.md"
               }
             }
           }
@@ -98,17 +98,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f039b6f710fce884",
+  "active": "1af3d5b3cd157e4a",
   "lastOpenFiles": [
-    "机器学习.md",
-    "机器学习/这可能是最简单易懂的机器学习入门（小白必读）.md",
-    "Chrome Clippings.md",
-    "数据治理/万字好文！数据治理体系与能力提升.md",
-    "数据治理/数据治理重点汇总.md",
-    "数据治理/数据治理方法论和实践小百科全书.md",
-    "数据治理/客户治理体系工作规划分享.md",
-    "数据治理/关于数仓建设及数据治理的超全概括.md",
-    "数据治理/数据治理解决方案参考.md",
-    "数据治理/所谓的数据质量.md"
+    "58 同城大数据开发社招二面、三面面经(附答案).md",
+    "程序员工作两年后的感受.md",
+    "大数据常用命令.md",
+    "带你快速了解 Docker 和 Kubernetes.md",
+    "大数据框架总结.pdf",
+    "指标体系/数仓建模—指标体系.md",
+    "Clickhouse/Clickhouse报错timeout解决方案.md",
+    "Hbase/Hbase优化.md",
+    "六千字总结 大数据框架(分区，分桶，分片),建议收藏.md",
+    "硬核！30 张图解 HTTP 常见的面试题.md"
   ]
 }
