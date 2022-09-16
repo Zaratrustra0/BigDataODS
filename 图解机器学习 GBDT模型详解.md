@@ -1,8 +1,4 @@
 # 图解机器学习 | GBDT模型详解
-### 图解机器学习 | GBDT模型详解
-
-2022-03-083386[人工智能](https://www.showmeai.tech/tag/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD)[机器学习](https://www.showmeai.tech/tag/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0)[GBDT](https://www.showmeai.tech/tag/GBDT)
-
 1.GBDT算法
 --------
 
@@ -32,8 +28,7 @@ Bagging 与 Boosting 的串行训练方式不同，Bagging 方法在训练过程
 
 如图是一个非常简单的帮助理解的示例，我们用 GBDT 去预测年龄：
 
-最终，四棵树的结论加起来，得到 ![](https://www.zhihu.com/equation?tex=30)
- 岁这个标注答案（实际工程实现里，GBDT 是计算负梯度，用负梯度近似残差）。
+最终，四棵树的结论加起来，得到 30 岁这个标注答案（实际工程实现里，GBDT 是计算负梯度，用负梯度近似残差）。
 
 #### （1）GBDT与负梯度近似残差
 
@@ -51,30 +46,17 @@ Bagging 与 Boosting 的串行训练方式不同，Bagging 方法在训练过程
 
 #### （2）GBDT训练过程
 
-我们来借助1个简单的例子理解一下 GBDT 的训练过程。假定训练集只有 ![](https://www.zhihu.com/equation?tex=4)
- 个人 ![](https://www.zhihu.com/equation?tex=%28A%2CB%2CC%2CD%29)
-，他们的年龄分别是 ![](https://www.zhihu.com/equation?tex=%2814%2C16%2C24%2C26%29)
-。其中，![](https://www.zhihu.com/equation?tex=A)
-、![](https://www.zhihu.com/equation?tex=B)
- 分别是高一和高三学生；![](https://www.zhihu.com/equation?tex=C)
-、![](https://www.zhihu.com/equation?tex=D)
- 分别是应届毕业生和工作两年的员工。
+我们来借助1个简单的例子理解一下 GBDT 的训练过程。假定训练集只有 4 个人 ![](https://www.zhihu.com/equation?tex=%28A%2CB%2CC%2CD%29)，他们的年龄分别是 ![](https://www.zhihu.com/equation?tex=%2814%2C16%2C24%2C26%29)。其中，![](https://www.zhihu.com/equation?tex=A)、![](https://www.zhihu.com/equation?tex=B)分别是高一和高三学生；![](https://www.zhihu.com/equation?tex=C)、![](https://www.zhihu.com/equation?tex=D)分别是应届毕业生和工作两年的员工。
 
 我们先看看用回归树来训练，得到的结果如下图所示：
 
 ![](https://img-blog.csdnimg.cn/img_convert/cfc752496222574423c4618259e649cd.png)
 
-接下来改用 GBDT 来训练。由于样本数据少，我们限定叶子节点最多为 ![](https://www.zhihu.com/equation?tex=2)
-（即每棵树都只有一个分枝），并且限定树的棵树为 ![](https://www.zhihu.com/equation?tex=2)
-。最终训练得到的结果如下图所示：
+接下来改用 GBDT 来训练。由于样本数据少，我们限定叶子节点最多为 2 （即每棵树都只有一个分枝），并且限定树的棵树为 2 。最终训练得到的结果如下图所示：
 
 ![](https://img-blog.csdnimg.cn/img_convert/8e2ea81d16336b947df58cb21d5ccca7.png)
 
-上图中的树很好理解：![](https://www.zhihu.com/equation?tex=A)
-、![](https://www.zhihu.com/equation?tex=B)
- 年龄较为相近，![](https://www.zhihu.com/equation?tex=C)
-、![](https://www.zhihu.com/equation?tex=D)
- 年龄较为相近，被分为左右两支，每支用平均年龄作为预测值。
+上图中的树很好理解：![](https://www.zhihu.com/equation?tex=A)、![](https://www.zhihu.com/equation?tex=B)年龄较为相近，![](https://www.zhihu.com/equation?tex=C)、![](https://www.zhihu.com/equation?tex=D)年龄较为相近，被分为左右两支，每支用平均年龄作为预测值。
 
 ![](https://img-blog.csdnimg.cn/img_convert/d27728269b48f6e51d30a29a6fe430eb.png)
 
@@ -153,36 +135,32 @@ Bagging 与 Boosting 的串行训练方式不同，Bagging 方法在训练过程
 
 下面是我们直接使用 python 机器学习工具库 sklearn 来对数据拟合和可视化的代码：
 
-```
+```python
+## 使用Sklearn调用GBDT模型拟合数据并可视化
 
+import numpy as np
+import pydotplus
+from sklearn.ensemble import  GradientBoostingRegressor
 
-1.  `## 使用Sklearn调用GBDT模型拟合数据并可视化`
+X = np.arange(1,  11).reshape(-1,  1)
+y = np.array([5.16,  4.73,  5.95,  6.42,  6.88,  7.15,  8.95,  8.71,  9.50,  9.15])
 
-4.  `import numpy as np`
-5.  `import pydotplus`
-6.  `from sklearn.ensemble import  GradientBoostingRegressor`
+gbdt =  GradientBoostingRegressor(max_depth=4, criterion ='squared_error').fit(X, y)
 
-8.  `X = np.arange(1,  11).reshape(-1,  1)`
-9.  `y = np.array([5.16,  4.73,  5.95,  6.42,  6.88,  7.15,  8.95,  8.71,  9.50,  9.15])`
+from  IPython.display import  Image
+from pydotplus import graph_from_dot_data
+from sklearn.tree import export_graphviz
 
-11.  `gbdt =  GradientBoostingRegressor(max_depth=4, criterion ='squared_error').fit(X, y)`
-
-13.  `from  IPython.display import  Image` 
-14.  `from pydotplus import graph_from_dot_data`
-15.  `from sklearn.tree import export_graphviz`
-
-17.  `## 拟合训练5棵树`
-18.  `sub_tree = gbdt.estimators_[4,  0]`
-19.  `dot_data = export_graphviz(sub_tree, out_file=None, filled=True, rounded=True, special_characters=True, precision=2)`
-20.  `graph = pydotplus.graph_from_dot_data(dot_data)` 
-21.  `Image(graph.create_png())`
-
-
+## 拟合训练5棵树
+sub_tree = gbdt.estimators_[4,  0]
+dot_data = export_graphviz(sub_tree, out_file=None, filled=True, rounded=True, special_characters=True, precision=2)
+graph = pydotplus.graph_from_dot_data(dot_data)
+Image(graph.create_png())
 ```
 
 ![](https://img-blog.csdnimg.cn/img_convert/09f79892cf7f82d15c228df2fe046ff0.png)
 
-[ShowMeAI](https://www.showmeai.tech/)系列教程推荐
+[ShowMeAI]系列教程推荐
 --------------------------------------------
 
 *   [大厂技术实现 | 推荐与广告计算解决方案](https://www.showmeai.tech/tutorials/50)
