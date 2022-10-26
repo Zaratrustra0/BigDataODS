@@ -105,8 +105,4 @@ nohup 指令基本使用格式：
 
     screen -S pid-X quit
 
-> 来源：一口 Linux  
-> 作者：zebra08
-
-![](https://mmbiz.qpic.cn/mmbiz_png/TwK74MzofXd78W49nBaME6TkGc8gv8DBzMJvytIYy9Dibfsl7qq5ibATfYh9BN1xQO5qU1OejK3Gic6dfl8iafXwGg/640?wx_fmt=png) 
  [https://mp.weixin.qq.com/s/BSuJ975D58mFsMYtYlx6aQ](https://mp.weixin.qq.com/s/BSuJ975D58mFsMYtYlx6aQ)

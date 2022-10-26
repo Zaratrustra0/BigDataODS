@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "10个解放双手的 IDEA 插件，这些代码真不用手写.md",
+            "file": "Hive/史诗级hive优化方案.md",
             "mode": "preview",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "标签",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10个解放双手的 IDEA 插件，这些代码真不用手写.md",
+                "file": "Hive/史诗级hive优化方案.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10个解放双手的 IDEA 插件，这些代码真不用手写.md"
+                "file": "Hive/史诗级hive优化方案.md"
               }
             }
           }
@@ -98,8 +99,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1af3d5b3cd157e4a",
+  "active": "bdf19192e4797d4c",
   "lastOpenFiles": [
+    "Hive/关于Hive命令的7个小技巧，你都清楚吗？.md",
+    "10个解放双手的 IDEA 插件，这些代码真不用手写.md",
     "58 同城大数据开发社招二面、三面面经(附答案).md",
     "程序员工作两年后的感受.md",
     "大数据常用命令.md",
@@ -107,8 +110,6 @@
     "大数据框架总结.pdf",
     "指标体系/数仓建模—指标体系.md",
     "Clickhouse/Clickhouse报错timeout解决方案.md",
-    "Hbase/Hbase优化.md",
-    "六千字总结 大数据框架(分区，分桶，分片),建议收藏.md",
-    "硬核！30 张图解 HTTP 常见的面试题.md"
+    "Hbase/Hbase优化.md"
   ]
 }

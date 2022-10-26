@@ -367,27 +367,3 @@ HBase 支持大量的压缩算法，可以从列簇级别上进行压缩。因�
 ###### 关闭 ResultScanner
 
 这不会带来性能提升，但是会避免一些性能问题。所以一定要在 try/catch 中关闭 ResultScanner。
-
-#### 参考文档
-
-```javascript
-https:
-https:
-https:
-https:
-https:
-https:
-```
-
-\--end--
-
-扫描下方二维码  
-
-添加好友，备注【**交流**】
-
-可私聊交流，也可进资源丰富学习群
-
-![](https://mmbiz.qpic.cn/mmbiz_png/W5ic5oJ9K6NLLfCWibbAHOolBtBbNMAFiaHXR0oOricm63SPdSr5ia4YyePvkCnsdUibAbg0ibuYuHMeMKyKwCeMRce2Q/640?wx_fmt=png)
-
-**更文不易，点个 “在看” 支持一下👇** 
- [https://mp.weixin.qq.com/s/fWrlAWNAJ-mbetG5bTcRog](https://mp.weixin.qq.com/s/fWrlAWNAJ-mbetG5bTcRog)

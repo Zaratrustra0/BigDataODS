@@ -1,7 +1,8 @@
 {
-  "baseFontSize": 16,
+  "baseFontSize": 13,
   "theme": "moonstone",
   "translucency": false,
   "cssTheme": "Things",
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [],
+  "accentColor": ""
 }

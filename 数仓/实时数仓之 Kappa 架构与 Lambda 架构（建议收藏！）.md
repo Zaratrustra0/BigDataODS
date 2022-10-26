@@ -136,28 +136,3 @@ Kappa 架构最大的问题是**流式重新处理历史的吞吐能力会低于
 2.  `Kappa` 架构并不是中间结果完全不落地，现在很多大数据系统都需要支持机器学习（离线训练），所以`实时中间结果需要落地对应的存储引擎供机器学习使用`，另外有时候还需要对明细数据查询，这种场景也需要把实时明细层写出到对应的引擎中。
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/rLGOIHABwEoUUpKYfkkPOj7WvgUqpgKq4ibeZ9lSwYqoR90kp9jy4ibp8pRc6KtalM3nfVYDg5ibz5vvHibSWRInUg/640?wx_fmt=png)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/icKqSso1xFnCKswBibrQ5PdkszaVbjF6MQk9qwoyKs5vEfWnj6EZrQfDIj4zly4FSlwdrFwbP6c1ezsjzWWNajXg/640?wx_fmt=png)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/icKqSso1xFnCKswBibrQ5PdkszaVbjF6MQ7ls7kkqBg5TxqzzibRG4Ukf0urq3nRWIQqZ62MxhpDvENtH04fdARtg/640?wx_fmt=png)
-
-End
-
-![](https://mmbiz.qpic.cn/mmbiz_png/ibOfZAXfkqIz0PYmkyNblWibzfnOaZy5DiaNknXDIW1lFQ3a86GwzDHHVEibzF1YhcgUiaN8WicxfqE12Jd3Ruutj6IQ/640?wx_fmt=png)
-
-**本文原创作者：土哥、一名大数据算法工程师。** **文章首发平台：微信公众号：** **3 分钟秒懂大数据**
-
-**添加土哥微信，拉你进大数据交流群，和** **4000+** **大数据好友一块交流技术**
-
-**![](https://mmbiz.qpic.cn/mmbiz_png/rLGOIHABwEoQH0Huv22tibAr1naMvfmhiaonCxj24w1MqDxGt1VUZcibMRYvOE0MibvZZZqRPpbvjoddQW2EYX2XVw/640?wx_fmt=png)**
-
-**往期精品文章：** 
-
-[史上最全系列 | 大数据框架知识点汇总（资源分享、还不快拿去！）](http://mp.weixin.qq.com/s?__biz=Mzg5NDY3NzIwMA==&mid=2247502915&idx=1&sn=730abe74b8965a4148b648b7e36c66c9&chksm=c01975fcf76efcea8ad84eec0d868234dab01833786dd6049ad5e379ff7300b558a6759c073e&scene=21#wechat_redirect)  
-
-[干货总结！Kafka 面试大全（万字长文，37 张图，28 个知识点）](http://mp.weixin.qq.com/s?__biz=Mzg5NDY3NzIwMA==&mid=2247502522&idx=1&sn=c40e90bc0b3795eb31f9ec39f2f64874&chksm=c0197305f76efa139d3beb1c911707fb07014d5ee56516f7e57d512f8f3383cabcdb87105f3c&scene=21#wechat_redirect)
-
-[史上最全干货！Flink 面试大全总结（全文 6 万字、110 个知识点、160 张图）](http://mp.weixin.qq.com/s?__biz=Mzg5NDY3NzIwMA==&mid=2247497240&idx=1&sn=954c0702a2d842f9facb4e36c8c44563&chksm=c0194fa7f76ec6b1f8b41e96ca6347b0e0da7fea3077cbed02ed862a0f3e335289eda3153924&scene=21#wechat_redirect)  
-
-[Spark 面试干货总结！（8 千字长文、27 个知识点、21 张图）](http://mp.weixin.qq.com/s?__biz=Mzg5NDY3NzIwMA==&mid=2247500540&idx=1&sn=1ff423566e052b2b509c28811e7ea2f0&chksm=c0197b43f76ef255b14c0d8225a42cd071312a5e6948c0f6890b68671b5f553fbb347ba5ec69&scene=21#wechat_redirect) 
- [https://mp.weixin.qq.com/s/yf4NGU8oXJaNVa003sLSWw](https://mp.weixin.qq.com/s/yf4NGU8oXJaNVa003sLSWw)

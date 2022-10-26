@@ -1,14 +1,3 @@
-# 【建议收藏】HBase配置检查清单
-点击上方 "**大数据肌肉猿**" 关注, 星标一起成长  
-
-后台回复【**加群**】，进入高质量学习交流群
-
-[2021 年大数据肌肉猿公众号奖励制度](http://mp.weixin.qq.com/s?__biz=Mzg3NjI4OTg1Mw==&mid=2247492162&idx=1&sn=4cfe73247766ada341e699cccc7e748d&chksm=cf362810f841a10635c7c94941e5642878f0e9f3cd36ca3cf85fa9e7ad76d23cfa9620e0a9c2&scene=21#wechat_redirect)  
-
-![](https://mmbiz.qpic.cn/mmbiz_png/W5ic5oJ9K6NLYR9UnnQfvib0YiaYAcBiaL6Du2nJic7Uq0Ye7sTghCAXIT5CStrickNqD6iaXlElYFiaoVEWJLrhzp9ahw/640?wx_fmt=png)
-
-> 来自：大数据研习社
-
 **1. 集群巡检**
 
 HBase 是使用 HDFS 作为底层存储的 NoSQL 数据库，提供了满足实时性和随即读写功能的数据库服务。
@@ -111,15 +100,4 @@ ore 大小超过此值（字节数），Memstore 将刷新到磁盘。这个参�
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/xqJ76ZLyAwAesdrFRQicaOwfyGzOLc4wy4In7U6Lar6klAB1Y1j6tKSJ3pYtiaHnuN4Ye3gAib5wGaZDOdgic2KRbw/640?wx_fmt=png)
 
-\--end--
-
-扫描下方二维码  
-
-添加好友，备注【**交流**】
-
-可私聊交流，也可进资源丰富学习群
-
-![](https://mmbiz.qpic.cn/mmbiz_png/W5ic5oJ9K6NLLfCWibbAHOolBtBbNMAFiaHXR0oOricm63SPdSr5ia4YyePvkCnsdUibAbg0ibuYuHMeMKyKwCeMRce2Q/640?wx_fmt=png)
-
-**更文不易，点个 “在看” 支持一下👇** 
  [https://mp.weixin.qq.com/s/qRI_6biH5Wt4Amk3Ph2Vvg](https://mp.weixin.qq.com/s/qRI_6biH5Wt4Amk3Ph2Vvg)

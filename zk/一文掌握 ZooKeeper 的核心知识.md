@@ -376,17 +376,3 @@ ZooKeeper 可以处理两种类型的队列：
 同步队列用 ZooKeeper 实现的实现思路如下：
 
 创建一个父目录 /synchronizing，每个成员都监控标志（Set Watch）位目录 /synchronizing/start 是否存在，然后每个成员都加入这个队列，加入队列的方式就是创建 /synchronizing/member_i 的临时目录节点，然后每个成员获取 / synchronizing 目录的所有目录节点，也就是 member_i。判断 i 的值是否已经是成员的个数，如果小于成员个数等待 /synchronizing/start 的出现，如果已经相等就创建 /synchronizing/start。
-
-参考资料
-
-**官方**
-
--   ZooKeeper 官网
--   ZooKeeper 官方文档
--   ZooKeeper Github
-
-**书籍**
-
--   《Hadoop 权威指南（第四版）》
--   《从 Paxos 到 Zookeeper 分布式一致性原理与实践》 
-    [https://mp.weixin.qq.com/s/Mx-Ix1hczb2gOUnaO_63TQ](https://mp.weixin.qq.com/s/Mx-Ix1hczb2gOUnaO_63TQ)

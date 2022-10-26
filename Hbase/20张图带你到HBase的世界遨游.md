@@ -1,25 +1,4 @@
 # 20张图带你到HBase的世界遨游
-**Python 实战社群**
-
-**Java 实战社群**
-
-**长按识别下方二维码，\*\***按需求添加 \*\*
-
-![](https://mmbiz.qpic.cn/mmbiz_png/gSgKWFwN1dCLic3Ix6DsRrfXwiagtLXL9K8AUVTqM0GciauLcgQOsCO9zNrfZSRrSgfOFlqf6dDWzzjq6dkvTmT0Q/640?wx_fmt=png)
-
-**扫码关注添加客服**
-
-**进 Python 社群▲**
-
-![](https://mmbiz.qpic.cn/mmbiz_png/gSgKWFwN1dCLic3Ix6DsRrfXwiagtLXL9KGGZcChkjswWTHcWPERSeG79tJYgq2VgxibhepiauTUCII6FVezkzCkVg/640?wx_fmt=png)
-
-**扫码关注添加客服**
-
-\***\* 进 Java 社群**▲\*\*
-
-作者丨 SoWhat1412 来源丨 sowhat1412  
-![](https://mmbiz.qpic.cn/mmbiz_png/wJvXicD0z2dWCod5zH8NPNkCNzSCicpFfKDyZyItbRugygiaGuc7bMeKZqJ74ZYypib1jBfR1Ulmlatf2McGiaibxLicw/640?wx_fmt=png)
-
 ### 1.1 HBase 是啥
 
 **HBase** 是一款面向列存储，用于存储处理海量数据的 **NoSQL** 数据库。它的理论原型是 **Google** 的 **BigTable**  论文。你可以认为 **HBase** 是一个高可靠性、高性能、面向列、可伸缩的分布式存储系统。
